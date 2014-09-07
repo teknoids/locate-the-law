@@ -4,12 +4,17 @@
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Locate The Law</title>
+		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4AGEN5cCv0TjipO_4X9Hqu7U1xTf9upk"></script>
+		<script src="js/googlemaps.js"></script>
+
 </head>
 
 <body>
+
 <div data-role="page" data-theme="a">
 
 	<div data-role="header" data-position="inline">
@@ -27,8 +32,8 @@
 			<li id="CA"><a href="states/California/California-LTL.html">California</a></li>
 			<li id="CO"><a href="states/Colorado/Colorado-LTL.html">Colorado</a></li>
 			<li id="CT"><a href="states/Connecticut/Connecticut-LTL.html">Connecticut</a></li>
-			<li id="DE">Delaware</li>
-			<li id="DC">District Of Columbia</li>
+			<li id="DE"><a href="states/Delaware/Delaware-LTL.html">Delaware</a></li>
+			<li id="DC"><a href="states/DistrictOfColumbia/DistrictOfColumbia-LTL.html">District Of Columbia</a></li>
 			<li id="FL">Florida</li>
 			<li id="GA">Georgia</li>
 			<li id="HI">Hawaii</li>
@@ -78,7 +83,12 @@
 
 
 </div>
+<div class="ui-content ui-bar-c ui-corner-all ui-shadow" id="map-canvas" data-position="inline">
+        <!-- map loads here... -->
 </div>
 </div>
+
+</div>
+
 </body>
 </html>
