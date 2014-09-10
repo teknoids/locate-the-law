@@ -5,6 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/> 
 <title>Reverse Geocoding</title> 
 
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB4AGEN5cCv0TjipO_4X9Hqu7U1xTf9upk"></script> 
 <script type="text/javascript"> 
   var geocoder;
@@ -46,14 +47,14 @@ function errorFunction(){
             //there are different types that might hold a city admin_area_lvl_1 usually does in come cases looking for sublocality type will be more appropriate
                 if (results[0].address_components[i].types[b] == "administrative_area_level_1") {
                     //this is the object you are looking for
-                    city= results[0].address_components[i];
+                    state= results[0].address_components[i];
                     break;
                 }
             }
         }
         //city data
-        alert(city.short_name + " " + city.long_name)
-
+        alert(state.short_name + " " + state.long_name)
+		$( "#this-state" ).load( "states/"+state.short_name+"/"+state.short_name+"-LTL.html " );
 
         } else {
           alert("No results found");
@@ -66,6 +67,7 @@ function errorFunction(){
 </script> 
 </head> 
 <body onload="initialize()"> 
+<div id="this-state"> </div>
 
 </body> 
 </html> 
