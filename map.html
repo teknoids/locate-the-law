@@ -54,7 +54,7 @@ function errorFunction(){
         }
         //city data
         alert(state.short_name + " " + state.long_name)
-		$( "#this-state" ).load( "states/"+state.short_name+"/"+state.short_name+"-LTL.html " );
+		$( "#this-state" ).load( "states/"+state.short_name+"/"+state.short_name+"-LTL.html #state" );
 
         } else {
           alert("No results found");
