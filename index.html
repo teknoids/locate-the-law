@@ -4,12 +4,15 @@
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Locate The Law</title>
+		<link rel="stylesheet" href="themes/Bootstrap.css">
 		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4AGEN5cCv0TjipO_4X9Hqu7U1xTf9upk"></script>
 		<script src="js/googlemaps.js"></script>
+		
 
 </head>
 
@@ -19,12 +22,20 @@
 
 	<div data-role="header" data-position="inline">
 		<h1>Locate The Law</h1>
+		
 	</div>
 <div data-role="content" data-theme="a">
+    
+    <h2 class="my-state"> </h2>
+<div id="this-state"> </div>
+
 <div data-role="collapsible-set" data-theme="a">
+
+
+
 <div data-role="collapsible">
 	<h2>US States</h2>
-		<ul data-role="listview" data-filter="true" data-filter-placeholder="Search States..." data-theme="b" data-divider-theme="b">
+		<ul data-role="listview" data-filter="true" data-filter-placeholder="Search States..." data-theme="a" data-divider-theme="a">
 			<li id="AL"><a href="states/AL/AL-LTL.html">Alabama</a></li>
 			<li id="AK"><a href="states/AK/AK-LTL.html">Alaska</a></li>
 			<li id="AZ"><a href="states/AZ/AZ-LTL.html">Arizona</a></li>
