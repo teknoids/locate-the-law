@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>North Carolina :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,58 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>North Carolina :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://statelibrary.dcr.state.nc.us/nc/stgovt/preconst.htm" class="external" target="_blank">North Carolina Constitution</a> <em>(North Carolina State Library)</em></li>
+					<li><a href="http://www.ncga.state.nc.us/Legislation/constitution/ncconstitution.html" class="external" target="_blank">North Carolina Constitution</a> <em>(North Carolina General Assembly)</em></li>
+					<li><a href="http://avalon.law.yale.edu/subject_menus/statech.asp#nc" class="external" target="_blank">Colonial Charters, Grants and Related Documents: North Carolina</a> <em>(Yale Avalon Project) - </em>seven documents, including the Charter of Carolina (1663 and 1665),  Fundamental Constitutions of Carolina (1669) and the Constitution of North Carolina, 1776</li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				    <li><a href="http://reports.oah.state.nc.us/ncac.asp" class="external" target="_blank">North Carolina Administrative Code</a></li>
+					<li> <a href="http://www.ncoah.com/rules/register/" class="external" target="_blank">North Carolina Administrative Register</a> Vol. 15, no. 1 (July 1, 2001-</li>
+					<li><a href="http://www.ncdoj.com/legalservices/lg_legalopinions.jsp" class="external" target="_blank">North Carolina Attorney General Opinions</a> 1993-</li>
+					<li><a href="http://www.governor.state.nc.us/" class="external" target="_blank">North Carolina Governor</a></li>
+					<li><a href="http://www.ncdoj.com/" class="external" target="_blank">North Carolina Attorney General</a></li>
+					<li><a href="http://www.sboe.state.nc.us/" class="external" target="_blank">North Carolina State Board of Elections</a></li>
+					<li><a href="http://www.secstate.state.nc.us/" class="external" target="_blank">North Carolina Secretary of State</a></li>
+					<li><a href="http://www.state.nc.us/agency/" class="external" target="_blank">North Carolina - Agency Information</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+				    <li><a href="http://www.aoc.state.nc.us/www/public/html/opinions.htm" class="external" target="_blank">North Carolina Supreme Court Opinions</a> <em>(North Carolina Courts) </em>February 1997 filing date-</li>
+					<li><a href="http://www.findlaw.com/11stategov/nc/ncca.html" class="external" target="_blank">North Carolina Supreme Court Opinions</a> <em>(FindLaw)</em> November 3, 1994-</li>
+					<li><a href="http://www.aoc.state.nc.us/www/public/html/opinions.htm" class="external" target="_blank">North Carolina Court of Appeals Opinions</a> <em>(North Carolina Courts)</em> January 2, 1996 filing date-</li>
+					<li><a href="http://www.findlaw.com/11stategov/nc/ncca.html" class="external" target="_blank">North Carolina Court of Appeals Opinions</a> <em>(FindLaw) </em>1994-</li>
+					<li><a href="http://pacer.ca4.uscourts.gov/opinions/opinion.php" class="external" target="_blank">U.S. Court of Appeals, 4th Circuit</a> <em>(U.S. Courts)</em></li>
+					<li><a href="http://www.findlaw.com/casecode/courts/4th.html" class="external" target="_blank">U.S. Court of Appeals, 4th Circuit</a> <em>(FindLaw) </em>January 1995-</li>
+					<li><a href="http://www.ncmd.uscourts.gov/">U.S. District Court, Middle District of North Carolina</a></li>
+					<li> <a href="http://www.ncwd.uscourts.gov/">U.S. District Court, Western District of North Carolina</a></li>
+					<li><a href="http://www.nccourts.org/" class="external" target="_blank">North Carolina Administrative Office of the Courts</a> - includes forms, publications, rules, Supreme Court, Court of Appeals, and trial court pages</li>
+					<li><a href="http://www.aoc.state.nc.us/www/public/html/sc_library.htm" class="external" target="_blank">North Carolina Supreme Court Library</a> and </li>
+					<li><a href="http://ncsc.sirsi.net/uhtbin/cgisirsi/x/0/49" class="external" target="_blank">catalog</a></li>	
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+				  	<li><a href="http://www.ncleg.net/gascripts/statutes/statutes.asp" class="external" target="_blank">North Carolina General Statutes</a></li>
+					<li><a href="http://www.ncga.state.nc.us/legislation/legislation.html" class="external" target="_blank">North Carolina Session Laws</a> 1997-</li>
+					<li><a href="http://www.ncga.state.nc.us/" class="external" target="_blank">North Carolina Bills</a></li>
+					<li><a href="http://www.ncga.state.nc.us/" class="external" target="_blank">North Carolina General Assembly</a> - composed of the </li>
+					<li><a href="http://www.ncga.state.nc.us/senate/senate.html" class="external" target="_blank">Senate</a> and </li>	
+					<li><a href="http://www.ncga.state.nc.us/house/house.html" class="external" target="_blank">House of Representatives</a></li>	
+					<li><a href="http://www.ncga.state.nc.us/gascripts/DocumentSites/browseDocSite.asp?nID=1" class="external" target="_blank">Legislative Publications</a></li>
+					<li><a href="http://www.ncga.state.nc.us/leglibrary/" class="external" target="_blank">North Carolina Legislative Library</a></li>
 				</ul>
 			</div>
 		</div>
