@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>Minnesota :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,53 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>Minnesota :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://www.house.leg.state.mn.us/cco/rules/mncon/preamble.htm" class="external" target="_blank">Minnesota Constitution</a> <em>(Minnesota Legislature House)</em></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				    <li><a href="http://www.leg.state.mn.us/leg/statutes.asp" class="external" target="_blank">Minnesota Rules</a> <em>(Minnesota Office of Revisor of Statutes)</em></li>
+					<li><a href="http://www.comm.media.state.mn.us/bookstore/state_register.asp" class="external" target="_blank">Minnesota State Register</a> <em>(Minnesota Office of State Register)</em> Vol. 21, no. 38 (March 17, 1997-</li>
+					<li><a href="http://www.governor.state.mn.us/priorities/governorsorders/executiveorders/index.htm" class="external" target="_blank">Minnesota Executive Orders</a> (<em>see also </em></li>
+					<li><a href="http://www.comm.media.state.mn.us/bookstore/stateregister.asp" class="external" target="_blank">Minnesota State Register</a>) 2003-</li>	
+					<li><a href="http://www.ag.state.mn.us/Resources/ResourcesAttGenOpinion.asp" class="external" target="_blank">Minnesota Attorney General Opinions</a> 1993-</li>
+					<li><a href="http://www.governor.state.mn.us/" class="external" target="_blank">Minnesota Governor</a></li>
+					<li><a href="http://www.ag.state.mn.us/" class="external" target="_blank">Minnesota   Attorney General</a></li>
+					<li><a href="http://www.sos.state.mn.us/home/index.asp" class="external" target="_blank">Minnesota Secretary of State</a></li>
+					<li><a href="http://www.sos.state.mn.us/home/index.asp?page=4" class="external" target="_blank">Minnesota     Elections Division</a> - includes links to election laws and procedures</li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+				  	<li><a href="http://www.mncourts.gov/default.aspx?page=230">Minnesota Supreme Court Opinions</a> <em>(Minnesota Courts)</em> current only</li>
+					<li><a href="http://www.mncourts.gov/default.aspx?page=433">Minnesota Court of Appeals Opinions</a> <em>(Minnesota Courts)</em> current only</li>
+					<li><a href="http://www.lawlibrary.state.mn.us/archive/" class="external" target="_blank">Minnesota State Appellate Courts Archive</a><em> (Minnesota State Law Library) </em>May 1996-</li>
+					<li><a href="http://www.findlaw.com/11stategov/mn/mnca.html" class="external" target="_blank">Minnesota Supreme Court and Court of Appeals Opinions</a> <em>(FindLaw)</em> May 1996-</li>
+					<li><a href="http://www.ca8.uscourts.gov/opinions/opinions.html">U.S. Court of Appeals, 8th Circuit</a> <em>(U.S. Courts) </em>November 1995-</li>
+					<li><a href="http://www.findlaw.com/casecode/courts/8th.html" class="external" target="_blank">U.S. Court of Appeals, 8th Circuit</a><em> (FindLaw)</em> November 1995-</li>
+					<li><a href="http://www.mnd.uscourts.gov/">U.S. District Court, District of Minnesota</a></li>
+					<li><a href="http://www.mncourts.gov/">Minnesota Judicial Branch</a></li>
+					<li><a href="http://www.mncourts.gov/default.aspx?page=511">Minnesota   Court Rules</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+				  	<li><a href="https://www.revisor.leg.state.mn.us/pubs/" class="external" target="_blank">Minnesota Statutes</a> <em>(Minnesota Office of Revisor of Statutes)</em></li>
+					<li><a href="https://www.revisor.leg.state.mn.us/pubs/" class="external" target="_blank">Minnesota Session Laws</a> <em>(Minnesota Office of Revisor of Statutes) </em>1994-</li>
+					<li><a href="http://www.leg.state.mn.us/leg/legis.asp" class="external" target="_blank">Minnesota Bills</a></li>
+					<li><a href="http://www.leg.state.mn.us/" class="external" target="_blank">Minnesota State Legislature</a> - composed of the </li>
+					<li><a href="http://www.senate.leg.state.mn.us/" class="external" target="_blank">Senate</a> and </li>	
+					<li><a href="http://www.house.leg.state.mn.us/" class="external" target="_blank">House of Representatives</a></li>	
 				</ul>
 			</div>
 		</div>

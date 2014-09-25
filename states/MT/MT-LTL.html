@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>Montana :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,56 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>Montana :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://leg.mt.gov/css/mtcode_const/const.asp">Montana Constitution</a> <em>(Montana Legislative Branch)</em></li>
+					<li><a href="http://courts.mt.gov/library/mt_law.asp#constitutional">Montana Constitution</a> <em>(Montana State Library)</em> in Folio</li>
+					<li><a href="http://courts.mt.gov/library/mt_law.asp#constitutional">Montana Constitutional Convention</a><em> (State Law Library of Montana)</em></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				  	<li><a href="http://sos.mt.gov/arm/register/index.asp">Montana Administrative Register</a> <em>(Montana Secretary of State) </em>1999-</li>
+					<li><a href="http://arm.sos.state.mt.us/" class="external" target="_blank">Administrative Rules of Montana</a> <em>(Montana Secretary of State)</em></li>
+					<li><a href="http://governor.mt.gov/eo/2005.asp">Montana Executive Orders</a> <em>(Montana Governor) </em>2005-</li>
+					<li> <a href="http://www.doj.mt.gov/resources/opinions.asp">Montana Attorney General Opinions</a> 1996-</li>
+					<li><a href="http://governor.mt.gov/">Montana Governor</a></li>
+					<li><a href="http://www.doj.mt.gov/default.asp">Montana Attorney General</a></li>
+					<li><a href="http://sos.state.mt.us/" class="external" target="_blank">Montana Secretary of State</a></li>
+					<li><a href="http://sos.state.mt.us/elb/index.asp" class="external" target="_blank">Montana Elections Bureau</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+				    <li><a href="http://fnweb1.isd.doa.state.mt.us/idmws/custom/sll/SLL_FN_Home.htm" class="external" target="_blank">Montana Supreme Court Opinions</a><em> (State Law Library of Montana) </em>1970-</li>
+					<li><a href="http://www.findlaw.com/11stategov/mt/mtca.html" class="external" target="_blank">Montana Supreme Court Opinions</a> <em>(FindLaw) </em>1997-</li>
+					<li><a href="http://fnweb1.isd.doa.state.mt.us/idmws/custom/sll/SLL_FN_Home.htm" class="external" target="_blank">Montana Supreme Court Opinions with Briefs</a><em> (State Law Library of Montana)</em> October 2000-</li>
+					<li><a href="http://www.ca9.uscourts.gov/ca9/newopinions.nsf/Opinions+by+date?OpenView&amp;Start=1&amp;Count=100&amp;Expand=1.1">U.S. Court of Appeals, 9th Circuit</a> <em>(U.S. Courts) </em>1995-</li>
+					<li><a href="http://caselaw.findlaw.com/court/us-9th-circuit" class="external" target="_blank">U.S. Court of Appeals, 9th Circuit</a><em> (FindLaw) </em>1990-</li>
+					<li><a href="http://www.mtb.uscourts.gov/">U.S. Bankruptcy Court, District of Montana</a></li>
+					<li><a href="http://www.mtd.uscourts.gov/">U.S. District Court, District of Montana</a></li>
+					<li><a href="http://www.umt.edu/law/library/Research%20Tools/Tribal%20Law.htm#Montana" class="external" target="_blank">Indian Law and Tribal Law &amp; Government</a> <em>(University of Montana Law Library)</em> - PDF; selected cases from October 1994-May 2004</li>
+					<li><a href="http://courts.mt.gov/dcourt/default.asp">Montana District Courts</a><em> (State Law Library of Montana)</em></li>
+					<li><a href="http://courts.mt.gov/water/default.asp">Montana Water Court</a><em> (State Law Library of Montana)</em></li>
+					<li><a href="http://courts.mt.gov/library/mt_law.asp#judicial">Montana Supreme Court Information</a><em> (State Law Library of Montana)</em></li>
+					<li><a href="http://www.aallnet.org/committee/citation/rules_mt.html" class="external" target="_blank">AALL Citation Formats Committee: Montana</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+				  	<li><a href="http://leg.mt.gov/css/mtcode_const/default.asp">Montana Code</a> current  and  previous editions </li>
+					<li> <a href="http://leg.mt.gov/css/bills/default.asp">Montana Bills</a> 1999-</li>
+					<li><a href="http://leg.mt.gov/css">Montana State Legislature</a> - composed of the </li>
+					<li><a href="http://leg.mt.gov/css/senate/default.asp">Senate</a> and </li>	
+					<li><a href="http://leg.mt.gov/css/house/default.asp">House of Representatives</a></li>	
 				</ul>
 			</div>
 		</div>
