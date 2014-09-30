@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>New Mexico :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,50 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>New Mexico :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					 <li><a href="http://www.conwaygreene.com/nmsu/lpext.dll?f=templates&amp;fn=main-h.htm&amp;2.0" class="external" target="_blank">New Mexico Constitution</a><em> (Conway Greene) </em>in frames</li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				  <li><a href="http://www.nmcpr.state.nm.us/nmac/" class="external" target="_blank">New Mexico Administrative Code</a> <em>(New Mexico Commission of Public Records)</em></li>
+		          <li><a href="http://www.nmcpr.state.nm.us/nmregister/" class="external" target="_blank">New Mexico Register</a> <em>(New Mexico Commission of Public Records)</em> Vol. 12, no. 15 (August 15, 2001-</li>
+		          <li><a href="http://www.nmag.gov/opinions/default.aspx">New Mexico Attorney General Opinions</a></li>
+		          <li><a href="http://www.governor.state.nm.us/" class="external" target="_blank">New Mexico Governor</a></li>
+		          <li><a href="http://www.nmag.gov/">New Mexico Attorney General</a></li>
+		          <li><a href="http://www.sos.state.nm.us/sos-elections.html" class="external" target="_blank">New Mexico Bureau of Elections</a></li>
+		          <li><a href="http://www.sos.state.nm.us/" class="external" target="_blank">New Mexico Secretary of State</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+				  <li><a href="http://www.supremecourt.nm.org/" class="external" target="_blank">New Mexico Supreme Court Opinions</a></li>
+		          <li> <a href="http://www.findlaw.com/11stategov/nm/nmca.html" class="external" target="_blank">New Mexico Supreme Court Opinions</a> <em>(FindLaw) </em>1998-</li>
+		          <li><a href="http://www.supremecourt.nm.org/" class="external" target="_blank">New Mexico Court of Appeals Opinions</a></li>
+		          <li> <a href="http://www.findlaw.com/11stategov/nm/nmca.html" class="external" target="_blank">New Mexico Court of Appeals Opinions</a> <em>(FindLaw) </em>1998-</li>
+		          <li><a href="http://www.ca10.uscourts.gov/index.php">U.S. Court of Appeals, 10th Circuit</a> <em>(United States            Courts)</em> 1995-</li>
+		          <li><a href="http://caselaw.findlaw.com/court/us-10th-circuit" class="external" target="_blank">U.S. Court of Appeals, 10th Circuit</a> <em>(FindLaw) </em>January 1995-</li>
+		          <li><a href="http://www.nmcourt.fed.us/" class="external" target="_blank">U.S. District Court, District of New Mexico</a></li>
+		          <li><a href="http://www.nmcourts.com/" class="external" target="_blank">New Mexico State Judiciary</a></li>
+		          <li><a href="http://www.conwaygreene.com/nmsu/lpext.dll?f=templates&amp;fn=main-h.htm&amp;2.0" class="external" target="_blank">Rules of Court</a> <em>(Conway Greene)</em></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+				  <li><a href="http://www.nmlegis.gov/lcs/statutes.aspx">New Mexico Statutes</a> currently available from </li>
+				  <li><a href="http://www.conwaygreene.com/nmsu/lpext.dll?f=templates&amp;fn=main-h.htm&amp;2.0" class="external" target="_blank">Conway Greene</a></li>	
+		          <li> <a href="http://www.nmlegis.gov/lcs/sessionpub.aspx">New Mexico Session Laws</a></li>
+		          <li> <a href="http://www.nmlegis.gov/lcs/BillFinder.aspx">New Mexico Bills</a></li>
+		          <li><a href="http://www.nmlegis.gov/lcs/">New Mexico State Legislature</a> - composed of the Senate and House of Representatives</li>
 				</ul>
 			</div>
 		</div>
