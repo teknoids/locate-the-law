@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>Vermont :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,55 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>Vermont :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://www.leg.state.vt.us/statutes/const2.htm" class="external" target="_blank">Vermont Constitution</a> <em>(Vermont Legislature)</em> </li>
+					<li><a href="http://avalon.law.yale.edu/subject_menus/statech.asp#vt" class="external" target="_blank">Colonial Charters, Grants and Related Documents: Vermont</a> <em>(Yale Avalon Project)</em> includes three documents including the 1777 and 1786 constitutions </li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				  	<li><a href="http://vermont-archives.org/aparules/index.htm" class="external" target="_blank">Administrative Procedures   Act/Rules</a> <em>(Vermont State Archives)</em> administrative compilation and   register not available online </li>
+					<li><a href="http://vermont-archives.org/aparules/ovnotices.htm" class="external" target="_blank">Adminsitrative Rules   Weekly Notice Page</a> <em>(Vermont State Archives)</em> includes links to   notices </li>
+					<li><a href="http://www.vermont.gov/governor/">Vermont Governor</a> </li>
+					<li><a href="http://governor.vermont.gov/executive_orders">Vermont   Governor Executive Orders</a> </li>
+					<li><a href="http://www.atg.state.vt.us/" class="external" target="_blank">Vermont Attorney General</a> </li>
+					<li><a href="http://www.atg.state.vt.us/display.php?smod=149" class="external" target="_blank">Vermont Attorney General   Opinions</a> </li>
+					<li><a href="http://www.sec.state.vt.us/" class="external" target="_blank">Vermont Secretary of State</a> - includes   databases </li>
+					<li><a href="http://vermont-elections.org/soshome.htm" class="external" target="_blank">Vermont Elections and Campaign   Finance Division</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+				  	<li><a href="http://www.vermontjudiciary.org/Resources/docs/Opinions.htm" class="external" target="_blank">Vermont Supreme   Court Opinions</a> <em>(Vermont Department of Libraries)</em> Vol. 161 (July   1993- </li>
+					<li><a href="http://www.findlaw.com/11stategov/vt/vtca.html" class="external" target="_blank">Vermont Supreme Court   Opinions</a> <em>(FindLaw) </em>1997- </li>
+					<li><a href="http://www.vermontjudiciary.org/envcrtdec/default.aspx" class="external" target="_blank">Vermont   Environmental Court Opinions</a> <em>(Vermont Department of Libraries) </em>1995, 1999- </li>
+					<li><a href="http://labor.vermont.gov/infocenter/lawsregulationslegislativestudies/decisions/tabid/127/default.aspx">Vermont   Workers' Compensation Decisions</a> <em>(Vermont Department of Libraries) </em>1995- </li>
+					<li><a href="http://www.state.vt.us/vlrb/" class="external" target="_blank">Vermont Labor Relations Board Decisions</a> <em>(Vermont Department of Libraries) </em>May 1995- </li>
+					<li><a href="http://dol.state.vt.us/law/prb" class="external" target="_blank">Vermont   Professional Responsibility Board Decisions</a><em> (Vermont Department of   Libraries)</em> </li>
+					<li><a href="http://www.findlaw.com/casecode/courts/2nd.html" class="external" target="_blank">U.S. Court of Appeals, 2d   Circuit Opinions</a> <em>(FindLaw) </em>1995- </li>
+					<li><a href="http://www.vtd.uscourts.gov/">U.S. District Court, District of Vermont</a> - includes local rules (PDF) and opinions </li>
+					<li><a href="http://www.vtb.uscourts.gov/judges-info/opinions">U.S. Bankruptcy Court, District   of Vermont Opinions</a> - since November 1999, in PDF; No. 85-96 (October 7,   1995- </li>
+					<li><a href="http://www.leg.state.vt.us/statutes/ctrules.htm" class="external" target="_blank">Vermont Court   Rules</a> </li>
+					<li><a href="http://www.vermontjudiciary.org/default.aspx" class="external" target="_blank">Vermont State Courts</a> <em>(Vermont Judiciary)</em></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+				  	<li><a href="http://www.leg.state.vt.us/statutes/statutes2.htm" class="external" target="_blank">Vermont Statutes   Online</a> - includes a list of statutes by title </li>
+					<li><a href="http://www.michie.com/vermont/" class="external" target="_blank">Vermont   Statutes</a> <em>(Michie)</em> </li>
+					<li><a href="http://www.leg.state.vt.us/docs/docs2.cfm" class="external" target="_blank">Vermont Public Acts and   Resolves</a> 1993/1994- </li>
+					<li><a href="http://www.leg.state.vt.us/docs/docs2.cfm" class="external" target="_blank">Vermont Bills</a> 1993/1994- </li>
+					<li><a href="http://www.leg.state.vt.us/default.htm" class="external" target="_blank">Vermont Legislature</a> - composed   of the Senate and House of Representatives </li>
+					<li><a href="http://www.leg.state.vt.us/misc/faq2.htm" class="external" target="_blank">Frequently Asked Questions</a> <em>(Vermont Legislature)</em></li>
 				</ul>
 			</div>
 		</div>
