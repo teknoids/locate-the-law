@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>South Carolina :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,53 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>South Carolina :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://www.scstatehouse.gov/scconstitution/scconst.htm">South Carolina   Constitution</a> <em>(South Carolina Legislature)</em> </li>
+					<li><a href="http://avalon.law.yale.edu/subject_menus/statech.asp#sc" class="external" target="_blank">Colonial Charters, Grants and Related Documents: South Carolina</a> <em>(Yale Avalon Project)</em>includes the Constitutions of 1776 and 1778 </li>
+					<li><a href="http://docsouth.unc.edu/">Documenting the American South</a> <em>(University of North Carolina Chapel Hill Library)</em></li>
+					<li>includes Journals of the Senate of   South Carolina, 1861-63, <a href="http://docsouth.unc.edu/imls/southcar/menu.html" class="external" target="_blank">Ordinances and   Constitution of the State of South Carolina</a> from the 1860-1862   Constitutional Convention and other materials </li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				    <li><a href="http://www.scstatehouse.gov/coderegs/statmast.htm">South Carolina Code   of Regulations</a> <em>(South Carolina Legislature) </em>- includes search and   table of contents </li>
+					<li><a href="http://www.scstatehouse.gov/archives/aregist.htm">South Carolina State   Register</a> <em>(South Carolina Legislature)</em> Vol. 23-31, no.6 (1999-June 22, 2007) </li>
+					<li><a href="http://www.scalc.net/decisions.aspx" class="external" target="_blank">Administrative Law Judge Division</a> <em>(University of South Carolina Law Library/South Carolina Administrative Law   Judge Division)</em> - includes decisions, rules, reports </li>
+					<li><a href="http://www.scattorneygeneral.com/opinions/index.html" class="external" target="_blank">South Carolina Attorney   General Opinions</a> </li>
+					<li><a href="http://governor.sc.gov/executive/orders/">South   Carolina Executive Orders</a> 2003-02 (January 17, 2003- </li>
+					<li><a href="http://governor.sc.gov/">South Carolina Governor</a> </li>
+					<li><a href="http://www.scattorneygeneral.org" class="external" target="_blank">South Carolina Attorney   General</a> </li>
+					<li><a href="http://www.state.sc.us/scsec/" class="external" target="_blank">South Carolina Election   Commission</a> </li>
+					<li><a href="http://www.scsos.com/" class="external" target="_blank">South Carolina Secretary of State</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
-				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+				<ul data-role="listview" data-theme="f" data-divider-theme="f">				
+					<li><a href="http://www.judicial.state.sc.us/opinions/searchOpinion.cfm" class="external" target="_blank">Supreme Court Opinions: South Carolina Judicial Department</a> 1997- </li>			
+					<li><a href="http://www.judicial.state.sc.us/opinions/searchOpinion.cfm" class="external" target="_blank">Court of Appeals Opinions: South Carolina   Judicial Department</a> 1997- </li>
+					<li><a href="http://pacer.ca4.uscourts.gov/opinions/opinion.htm">U.S. Court of Appeals, 4th Circuit</a> </li>						
+					<li><a href="http://www.scd.uscourts.gov/">U.S. District Court, District of South   Carolina</a> </li>
+					<li><a href="http://www.judicial.state.sc.us/" class="external" target="_blank">South Carolina Judicial Department</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+					 <li><a href="http://www.scstatehouse.gov/code/statmast.htm">South Carolina Code of   Laws</a> <em>(South Carolina Legislature)</em> </li>
+					<li><a href="http://www.scstatehouse.gov/html-pages/legpage.html">South Carolina Acts   and Bills</a> <em>(South Carolina Legislature)</em> </li>
+					<li><a href="http://www.scstatehouse.gov/archives/aacts.htm">South Carolina Act/Law   Archives</a> <em>(South Carolina Legislature) </em>includes acts from   1980 </li>
+					<li><a href="http://www.scstatehouse.gov/index.html">South Carolina State   Legislature</a> - composed of the </li>
+					<li><a href="http://www.scstatehouse.gov/html-pages/senate2.html">Senate</a> and </li>	
+					<li><a href="http://www.scstatehouse.gov/html-pages/house2.html">House of   Representatives</a></li>	
+					<li><a href="http://www.scstatehouse.gov/html-pages/research.html">Research</a> <em>(South Carolina Legislature) </em></li>
 				</ul>
 			</div>
 		</div>

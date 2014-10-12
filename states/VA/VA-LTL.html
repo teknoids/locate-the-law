@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>Virginia :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,76 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>Virginia :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://law.lis.virginia.gov/constitution">Virginia Constitution</a> <em>(Virginia General Assembly)</em> </li>
+					<li><a href="http://avalon.law.yale.edu/subject_menus/statech.asp#va" class="external" target="_blank">Colonial Charters, Grants and Related Documents: Virginia</a> <em>(Yale Avalon Project)</em> includes four documents including the</li> 
+					<li><a href="http://avalon.law.yale.edu/18th_century/virginia.asp" class="external" target="_blank">Constitution of   Virginia, 1776</a> (also known as the Virginia Bill of Rights) </li>	
+					<li><a href="http://www.archives.gov/exhibits/charters/virginia_declaration_of_rights.html">Virginia   Bill of Rights, 1776</a> <em>(National Archives and Records   Administration)</em></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				  	<li><a href="http://leg1.state.va.us/cgi-bin/legp504.exe?000+men+SRR" class="external" target="_blank">Virginia Administrative Code</a> </li>
+					<li><a href="http://register.dls.virginia.gov/documents/cumultab.pdf" class="external" target="_blank">Cumulative Table   of Sections Adopted, Amended or Repealed</a> PDF</li>
+					<li><a href="http://register.dls.virginia.gov/" class="external" target="_blank">Virginia Register   of Regulations</a> Vol. 14, no.   20 (June 22, 1998- </li>
+					<li><a href="http://www.governor.virginia.gov/Issues/ExecutiveOrders/">Virginia Executive Orders</a> No. 1 (2010- </li>
+					<li><a href="https://governor.virginia.gov/executive-actions/executive-orders/">Virginia Executive Orders</a> <em>(Library of Virginia)</em></li>
+					<li><a href="http://www.oag.state.va.us/opinions/index.html" class="external" target="_blank">Virginia Attorney General Opinions</a> 1996- </li>
+					<li><a href="http://www.governor.virginia.gov/">Virginia Governor</a> </li>
+					<li><a href="http://www.oag.state.va.us/" class="external" target="_blank">Virginia Attorney General</a> </li>
+					<li><a href="http://www.sbe.virginia.gov/cms/">Virginia Board of Elections</a> </li>
+					<li><a href="http://www.commonwealth.virginia.gov/">Virginia Secretary of State</a> </li>
+					<li><a href="http://www.virginia.gov/cmsportal3/government_4096/branches_of_state_government_4097/executive_branch.html">Executive   Branch Agencies</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+				  	<h4>Virginia Supreme Court Opinions:</h4>
+					<ul data-role="listview" data-theme="f" data-divider-theme="f">
+						<li><a href="http://www.courts.state.va.us/search/textopinions.html" class="external" target="_blank">Virginia Courts</a> </li>
+						<li><a href="http://www.findlaw.com/11stategov/va/vaca.html" class="external" target="_blank">FindLaw</a> 1995- </li>
+						<li><a href="http://valawyersweekly.com/fulltext-opinions/category/supreme-court-of-virginia/" class="external" target="_blank">Virginia Lawyers Weekly</a> 1998- </li>
+					</ul>
+					<h3>Court of Appeals Opinions:</h3> 
+					<ul data-role="listview" data-theme="f" data-divider-theme="f">
+						<li><a href="http://www.courts.state.va.us/search/textopinions.html" class="external" target="_blank">Virginia Courts</a> </li>
+						<li><a href="http://www.findlaw.com/11stategov/va/vaca.html" class="external" target="_blank">FindLaw (published and   unpublished)</a> 1995- </li>
+						<li><a href="http://valawyersweekly.com/fulltext-opinions/category/virginia-court-of-appeals/" class="external" target="_blank">Virginia Lawyers   Weekly</a> </li>
+					</ul>	
+					<li><a href="http://vwc.state.va.us/content/judicial-opinion-search" class="external" target="_blank">Virginia Workers'   Compensation Commission Opinions</a> </li>
+					<li><a href="http://pacer.ca4.uscourts.gov/opinions/opinion.htm">U.S. Court of Appeals,   4th Circuit</a> <em>(U.S. Courts)</em> </li>
+					<li><a href="http://www.findlaw.com/casecode/courts/4th.html" class="external" target="_blank">U.S. Court of Appeals,   4th Circuit</a><em> (FindLaw)</em> January 1995- </li>
+					<li><a href="http://www.vaed.uscourts.gov/">U.S. District Court, Eastern District of   Virginia</a> </li>
+					<li><a href="http://www.vawd.uscourts.gov/opinion.asp">U.S. District Court, Western   District of Virginia - Opinions</a> </li>
+					<li><a href="http://www.courts.state.va.us" class="external" target="_blank">Virginia Judicial Branch</a> </li>
+					<li><a href="http://www.virginia.gov/cmsportal3/government_4096/branches_of_state_government_4097/judicial_branch.html">Judicial Branch   Agencies</a></li>
+					<li><a href="http://leg1.state.va.us/000/srs.htm" class="external" target="_blank">Supreme Court Rules</a><em> (Virginia   Legislature)</em></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+				  	<li><a href="http://law.lis.virginia.gov/vacode">Virginia Code</a> </li>
+					<li><a href="http://lis.virginia.gov/cgi-bin/legp604.exe?142+men+BIL">Virginia Bills</a> </li>
+					<li><a href="http://virginiageneralassembly.gov/">Virginia General Assembly</a> - composed of the </li>
+					<li><a href="http://virginiageneralassembly.gov/membersAndSession.php?secid=1&amp;activesec=0#ui-tabs-3">Senate</a> and</li>	 
+					<li><a href="http://virginiageneralassembly.gov/membersAndSession.php?secid=1&amp;activesec=0#!hb=1&amp;mainContentTabs=3">House of Delegates</a></li>	 
+					<li><a href="http://dls.virginia.gov/publications.html">Publications</a> <em>(Virginia Division of Legislative   Services)</em></li>
+					<li><a href="http://dls.virginia.gov/pubs_digest.html">Digest of the Acts   of the General Assembly of Virginia</a> <em>(Virginia Division of Legislative   Services)</em> </li>
+					<li><a href="http://dls.virginia.gov/pubs_session_brief.html">Issue Briefs</a> <em>(Virginia Division of Legislative Services)</em> </li>
+					<li><a href="http://leg2.state.va.us/dls/h&amp;sdocs.nsf/Published+by+Year?OpenForm&amp;StartKey=2014&amp;ExpandView" class="external" target="_blank">Reports   to the General Assembly</a>, 1897- </li>
+					<li><a href="http://dls.virginia.gov/lrc/pubs.htm">Topical Studies of the General   Assembly of Virginia</a> <em>(Virginia Division of Legislative   Services)</em> </li>
+					<li><a href="http://law.lis.virginia.gov/charters">Virginia Law: Charters</a> <em>(Virginia Legislative Information Services)</em> </li>
+					<li><a href="http://codecommission.dls.virginia.gov/">Virginia Code   Commission</a> </li>
+					<li><a href="http://dls.virginia.gov/">Virginia Division of Legislative Services</a></li>
 				</ul>
 			</div>
 		</div>
