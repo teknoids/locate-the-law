@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>Michigan :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,69 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>Michigan :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://www.legislature.mi.gov/mileg.asp?page=MCLconstitutionSearch">Michigan Constitution</a> <em>(Library of Michigan)</em></li>
+					<li> <a href="http://www.michigan.gov/som/0,1607,7-192-29938_30243-96757--,00.html">Michigan Constitution</a> <em>(Michigan)</em></li>
+					<li> <a href="http://www.legislature.mi.gov/mileg.asp?page=historicaldocuments">Historical Documents</a><em> (Michigan Legislature) </em>includes the Government of the Northwest Territories 1787, and copies of the 1835, 1850, and 1908 constitutions</li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				    <li><a href="http://www.michigan.gov/cis/0,1607,7-154-10576_35738_5698---,00.html">Michigan Administrative Code</a><em> (Michigan Office of Adminsitrative Hearings and Rules) </em>includes a numeric and department listing</li>
+					<li> <a href="http://www.michigan.gov/cis/0,1607,7-154-10576_35738_40280---,00.html">Michigan Register</a><em> (Michigan Offfice of Adminsitrative Hearings and Rules) </em>No. 3 (April 17, 2000-</li>
+					<li><a href="http://www.michigan.gov/gov/0,1607,7-168-21975---,00.html">Michigan Executive Orders</a> No. 2003-1 (January 2003-</li>
+					<li><a href="http://www.michigan.gov/formergovernors">Michigan Executive Orders (Former Governors)</a></li>
+					<li><a href="http://www.michigan.gov/gov/">Michigan Governor</a></li>
+					<li><a href="http://www.michigan.gov/ag/0,1607,7-164-20988---,00.html">Michigan Attorney General Opinions 1997-</a></li>
+					<li><a href="http://www.michigan.gov/ag/">Michigan Attorney General</a></li>
+					<li><a href="http://www.michigan.gov/sos/0,1607,7-127-1633---,00.html">Michigan Bureau of Elections</a></li>
+					<li><a href="http://www.michigan.gov/sos/">Michigan Secretary of State</a></li>
+	
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+					  <li> Michigan Supreme Court Opinions:
+						<ul class="std">
+							<li><a href="http://courts.michigan.gov/">Michigan Supreme Court</a></li>
+							<li> <a href="http://www.icle.org/michlaw/" class="external" target="_blank">Institute of Continuing Legal Education</a> October 1995-</li>
+							<li> <a href="http://www.findlaw.com/11stategov/mi/mica.html" class="external" target="_blank">FindLaw</a> 1995-</li>
+							<li> <a href="http://www.michbar.org/opinions/content.cfm" class="external" target="_blank">Michigan State Bar</a> 1998-</li>
+						</ul>
+					</li>
+					<li> Michigan Court of Appeals Opinions:
+						<ul class="std">
+							<li><a href="http://courtofappeals.mijud.net/opinions.htm" class="external" target="_blank">Michigan Court of Appeals</a> July 1996-</li>
+							<li> <a href="http://courtofappeals.mijud.net/opinions.htm" class="external" target="_blank">Institute of Continuing Legal Education</a> August 1996-</li>
+							<li> <a href="http://www.findlaw.com/11stategov/mi/mica.html" class="external" target="_blank">FindLaw</a> 1996-</li>
+							<li> <a href="http://www.michbar.org/opinions/home.html?content.html" class="external" target="_blank">Michigan State Bar</a> August 1997-</li>
+						</ul>
+					</li>
+					<li> <a href="http://www.ca6.uscourts.gov/internet/index.htm">U.S. Court of Appeals, 6th Circuit</a> <em>(U.S. Courts)</em> 1994-</li>
+					<li><a href="http://www.findlaw.com/casecode/courts/6th.html" class="external" target="_blank">U.S.Court of Appeals, 6th Circuit</a><em> (FindLaw)</em> January 1995-</li>
+					<li> <a href="http://www.mied.uscourts.gov/">U.S. District Court, Eastern District of Michigan</a></li>
+					<li><a href="http://www.miwd.uscourts.gov/">U.S.  District Court, Western District of Michigan</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+				  	<li><a href="http://www.legislature.mi.gov/">Michigan Compiled Laws</a><em> (Michigan Legislature)</em></li>
+					<li> <a href="http://www.legislature.mi.gov/mileg.asp?page=PublicActs">Michigan Statutes (Public Acts)</a><em> (Michigan Legislature)</em> 1996-</li>
+					<li><a href="http://www.legislature.mi.gov/mileg.asp?page=Bills">Michigan Bills</a><em> (Michigan Legislature)</em></li>
+					<li><a href="http://www.legislature.mi.gov/">Michigan State Legislature</a> - composed of the </li>
+					<li><a href="http://senate.michigan.gov">Senate</a> and </li>	
+					<li><a href="http://house.michigan.gov/">House of Representatives</a></li>	
+					<li><a href="http://council.legislature.mi.gov/">Michigan Legislative Council</a></li>
+					<li><a href="http://archive.legislature.mi.gov/">Michigan Legislature Archived Documents</a></li>
 				</ul>
 			</div>
 		</div>

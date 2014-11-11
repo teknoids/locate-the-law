@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>Maine :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,53 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>Maine :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://janus.state.me.us/legis/const/" class="external" target="_blank">Maine Constitution</a><em> (Maine Legislature)</em></li>
+		            <li><a href="http://www.state.me.us/sos/arc/general/constit/conscont.htm" class="external" target="_blank">Maine Constitution</a> <em>(Maine State Archives)</em></li>
+		            <li><a href="http://avalon.law.yale.edu/subject_menus/statech.asp#me" class="external" target="_blank">Colonial Charters, Grants and Related Documents: Maine</a> <em>(Yale Avalon Project)</em> includes grants from 1622, 1639, 1664, and 1674</li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				  	<li><a href="http://www.maine.gov/sos/cec/rules/index.html">Rules of Maine State Government Agencies</a> <em>(Maine Secretary of State)</em></li>
+		            <li><a href="http://www.maine.gov/governor/baldacci/index.shtml">Maine Governor</a></li>
+		            <li><a href="http://www.maine.gov/ag/">Maine Attorney General</a></li>
+		            <li><a href="http://www.maine.gov/sos/cec/elec/">Maine Division of Elections</a></li>
+		            <li><a href="http://www.maine.gov/sos/index.html">Maine Secretary of State</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+				  	<li><a href="http://www.courts.state.me.us/opinions/index.html" class="external" target="_blank">Maine Supreme Court Opinions</a> <em>(Maine Courts)</em></li>
+		            <li><a href="http://www.findlaw.com/11stategov/me/meca.html" class="external" target="_blank">Maine Supreme Court Opinions</a> <em>(FindLaw) </em>1997- </li>
+		            <li><a href="http://webapp.usm.maine.edu/SuperiorCourt/" class="external" target="_blank">Maine Superior Court Decisions</a> <em>(University of Maine)</em> 2000-</li>
+		            <li><a href="http://www.ca1.uscourts.gov/opinions/main.php">U.S. Court of Appeals, 1st Circuit</a> <em>(U.S. Courts)</em></li>
+		            <li><a href="http://www.findlaw.com/casecode/courts/1st.html" class="external" target="_blank">U.S. Court of Appeals, 1st Circuit</a><em> (FindLaw)</em> November 1995-</li>
+		            <li><a href="http://www.med.uscourts.gov/">U.S. District Court, District of Maine</a></li>
+		            <li><a href="http://www.med.uscourts.gov/opinionssearch/opsearch.asp">U.S. District Court, District of Maine Opinions</a></li>    
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+				    <li><a href="http://janus.state.me.us/legis/statutes/" class="external" target="_blank">Maine Revised Statutes</a></li>
+		            <li><a href="http://janus.state.me.us/legis/ros/lom/lomdirectory.htm" class="external" target="_blank">Maine Session Laws</a> 118th (December 1996-</li>
+		            <li><a href="http://janus.state.me.us/legis/session/" class="external" target="_blank">Maine Bills</a></li>
+		            <li><a href="http://www.state.me.us/legis/senate/Documents/main.htm" class="external" target="_blank">Maine House and Senate Documents</a></li>
+		            <li><a href="http://janus.state.me.us/legis/ros/manual/contents.htm" class="external" target="_blank">Maine Legislative Drafting Manual</a></li>
+		            <li><a href="http://www.state.me.us/legis/opla/119study.htm" class="external" target="_blank">Maine Legislative Studies</a></li>
+		            <li><a href="http://www.state.me.us/legis/lawlib/legbiogdb.htm" class="external" target="_blank">Maine Legislators Biographical Database</a></li>
+		            <li><a href="http://janus.state.me.us/legis/" class="external" target="_blank">Maine State Legislature</a> - composed of the </li>
+		            <li><a href="http://www.state.me.us/legis/senate/" class="external" target="_blank">Senate</a> and </li>	
+		            <li><a href="http://janus.state.me.us/house/" class="external" target="_blank">House of Representatives</a></li>	
 				</ul>
 			</div>
 		</div>

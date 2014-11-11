@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>New  Hampshire :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,53 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>New  Hampshire :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://www.nh.gov/constitution/constitution.html">New  Hampshire Constitution</a> <em>(New Hampshire Government)</em></li>
+		            <li> <a href="http://avalon.law.yale.edu/subject_menus/statech.asp#nh" class="external" target="_blank">Colonial Charters, Grants and Related Documents: New Hampshire</a> <em>(Yale Avalon Project)</em> - features eleven documents,  including the </li>
+		            <li><a href="http://avalon.law.yale.edu/18th_century/nh09.asp" class="external" target="_blank">Constitution of New Hampshire, 1776</a></li>	
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				   <li><a href="http://www.gencourt.state.nh.us/rules/about_rules/listagencies.htm" class="external" target="_blank">New Hampshire Agency Administrative Rules</a></li>
+		           <li> <a href="http://www.gencourt.state.nh.us/rules/register/default.htm" class="external" target="_blank">New Hampshire Rulemaking Register</a></li>
+		           <li> <a href="http://www.governor.nh.gov/media/orders/index.htm">New Hampshire Executive Orders</a> 2005-</li>
+		           <li><a href="http://doj.nh.gov/media-center/opinions.htm">New Hampshire Attorney General Opinions</a> (1997-</li>
+		           <li><a href="http://www.governor.nh.gov/">New Hampshire Governor</a></li>
+		           <li><a href="http://doj.nh.gov/">New  Hampshire Attorney General</a></li>
+		           <li><a href="http://www.gencourt.state.nh.us/rules/index.html" class="external" target="_blank">New Hampshire Division of Administrative Rules</a></li>
+		           <li><a href="http://www.sos.nh.gov/electionsnew.html">New Hampshire Election Division</a></li>
+		           <li><a href="http://www.sos.nh.gov/">New Hampshire Secretary of State</a></li>
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
-				</ul>
+				   <li><a href="http://www.nh.gov/judiciary/supreme/opinions/index.htm">New  Hampshire Supreme Court Opinions</a> <em>(New Hampshire Judicial Branch)</em> November 1995-</li>
+		           <li><a href="http://caselaw.findlaw.com/court/nh-supreme-court" class="external" target="_blank">New  Hampshire Supreme Court Opinions</a> <em>(FindLaw)</em> January 1997-</li>
+		           <li><a href="http://www.nh.gov/judiciary/superior/index.htm">New  Hampshire Superior Court</a> <em>(New Hampshire Judicial Branch)</em> includes orders and forms</li>
+		           <li> <a href="http://www.ca1.uscourts.gov/?content=opinions/main.php">U.S.    Court of Appeals, 1st Circuit</a> <em>(U.S. Courts)</em></li>
+		           <li><a href="http://www.findlaw.com/casecode/courts/1st.html" class="external" target="_blank">U.S.  Court of Appeals, 1st Circuit</a> <em>(FindLaw)</em> February 1984-</li>
+		           <li><a href="http://www.nhd.uscourts.gov/">U.S.  District Court, District of New Hampshire</a></li>
+		           <li><a href="http://www.nh.gov/judiciary/index.htm">New  Hampshire Judicial Branch</a></li>
+		</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+		   			<li><a href="http://www.gencourt.state.nh.us/rsa/html/indexes/" class="external" target="_blank">New  Hampshire Revised Statutes</a></li>
+		            <li> <a href="http://gencourt.state.nh.us/legislation/default.htm" class="external" target="_blank">New Hampshire Legislation</a> includes bills, chaptered final versions, bill text search, and more</li>
+		            <li><a href="http://gencourt.state.nh.us/ns/" class="external" target="_blank">New  Hampshire General Court</a> - composed of the </li>
+		            <li><a href="http://www.gencourt.state.nh.us/senate/" class="external" target="_blank">Senate</a> and </li>	
+		            <li><a href="http://www.gencourt.state.nh.us/house/" class="external" target="_blank">House of Representatives</a></li>	
+		            <li><a href="http://www.nh.gov/government/laws.html">New  Hampshire Laws and Rules</a></li>
 				</ul>
 			</div>
 		</div>

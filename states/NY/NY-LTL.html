@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-This is the template file for building 
-individual state web pages. For now I've 
-found the LoC Law Guides a useful source
-of raw data to populate this template.
--->
 <html>
 <head>
+<!--
+Copyright 2014 Elmer R. Masters
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
 <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>State :: Locate The Law</title>
+		<title>New York :: Locate The Law</title>
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
@@ -17,32 +26,60 @@ of raw data to populate this template.
 <body>
 <div data-role="page" data-theme="a">
 	<div data-role="header" data-position="inline"><a href="index.html" data-icon="home" data-rel="back">Home</a>
-		<h1>State :: Locate The Law</h1>
+		<h1>New York :: Locate The Law</h1>
 	</div>
 	<div data-role="content" data-theme="e" id="state">
 		<div data-role="collapsible-set" data-theme="e">
 			<div data-role="collapsible">			
 				<h2>Constitution</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-					<li>Link for state constitution</li>
+					<li><a href="http://www.dos.state.ny.us/info/constitution.htm" class="external" target="_blank">New York Constitution</a> <em>(New York State Dept. of State)</em> </li>
+					<li><a href="http://avalon.law.yale.edu/subject_menus/statech.asp#ny" class="external" target="_blank">Colonial Charters, Grants and Related Documents: New York</a> <em>(Yale Avalon Project)</em> includes the </li>
+					<li><a href="http://avalon.law.yale.edu/18th_century/ny01.asp" class="external" target="_blank">Constitution of New York, 1777</a></li>	
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Executive</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for governor's office, state rules and regs, administrative functions, etc. </li>
+				  	<li><a href="http://www.dos.state.ny.us/info/faq.html" class="external" target="_blank">Rule Making Frequently Asked Questions</a> <em>(New York Secretary of State, Division of Administrative Rules); see also </em>general <a href="http://www.dos.state.ny.us/info/publications.html" class="external" target="_blank">publications</a> information and <a href="http://www.dos.state.ny.us/info/nycrr.html" class="external" target="_blank">New York Codes, Rules &amp; Regulations</a> information</li>
+					<li> <a href="http://www.dos.state.ny.us/info/register.htm" class="external" target="_blank">New York State Register</a> - from June 25, 2003 to the current week</li>
+					<li> <a href="http://www.ag.ny.gov/bureaus/appeals_opinions/search_intro.html">New York Attorney General Opinions</a></li>
+					<li> <a href="http://www.osc.state.ny.us/legal/index.htm" class="external" target="_blank">New York State Office of the State Comptroller: Legal Opinions</a></li>
+					<li><a href="http://www.governor.ny.gov/">New York Governor</a></li>
+					<li><a href="http://www.ag.ny.gov/">New York Attorney General</a></li>
+					<li> <a href="http://www.elections.state.ny.us" class="external" target="_blank">New York Board of Elections</a></li>
+					<li><a href="http://www.dos.state.ny.us/" class="external" target="_blank">New York Secretary of State</a></li>
+
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Judicial</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state courts, federal courts in state, court rules, etc. </li>
+				  	<li><a href="http://www.nycourts.gov/ctapps/decisions.htm">New York Court of Appeals Opinions</a> <em>(New York State Unified Court System) </em>2002-</li>
+					<li><a href="http://www.law.cornell.edu/nyctap/" class="external" target="_blank">New York Court of Appeals Opinions</a> <em>(Cornell Legal Information Institute) </em>1992-</li>
+					<li><a href="http://caselaw.findlaw.com/courts/New-York" class="external" target="_blank">New York Court of Appeals Opinions</a> <em>(FindLaw) </em>1992-</li>
+					<li><a href="http://www.nycourts.gov/decisions/index.shtml">New York State Unified Court System: Decisions</a> includes Supreme Court and other courts</li>
+					<li><a href="http://www.ca2.uscourts.gov/opinions.htm">U.S. Court of Appeals, 2d Circuit Opinions</a> <em>(U.S. Courts)</em></li>
+					<li><a href="http://www.findlaw.com/casecode/courts/2nd.html" class="external" target="_blank">U.S. Court of Appeals, 2d Circuit Opinions</a> <em>(FindLaw) </em>1995-</li>
+					<li><a href="http://www.nyed.uscourts.gov/">U.S. District Court, Eastern District of New York</a></li>
+					<li><a href="http://www.nysd.uscourts.gov/">U.S. District Court, Southern District of New York</a></li>
+					<li><a href="http://www.nycourts.gov/home.htm">New York State Unified Court System</a></li>
+					<li><a href="http://www.nycourts.gov/rules/index.shtml">New York Rules</a> and </li>
+					<li><a href="http://www.courts.state.ny.us/lawlibraries/forms.shtml" class="external" target="_blank">Forms</a> <em>(New York State Unified Court System)</em></li>	
 				</ul>
 			</div>
 			<div data-role="collapsible">
 				<h2>Legislative</h2>
 				<ul data-role="listview" data-theme="f" data-divider-theme="f">
-				  <li>Links for state legisltaure including each chamber of the legislature, etc. </li>
+				  	<li><a href="http://public.leginfo.state.ny.us" class="external" target="_blank">New York Consolidated Laws</a> <em>(New York State Legislature)</em></li>
+					<li><a href="http://codes.lp.findlaw.com/nycode/" class="external" target="_blank">New York Consolidated Laws</a> <em>(FindLaw)</em></li>
+					<li><a href="http://public.leginfo.state.ny.us" class="external" target="_blank">New York Bills</a><em> (New York State Legislature)</em></li>
+					<li><a href="http://assembly.state.ny.us/leg/" class="external" target="_blank">New York Bills</a><em> (New York State Assembly)</em></li>
+					<li><a href="http://public.leginfo.state.ny.us/menuf.cgi" class="external" target="_blank">New York Legislature</a> - composed of the </li>
+					<li><a href="http://assembly.state.ny.us/" class="external" target="_blank">Assembly</a> and the </li>	
+					<li><a href="http://www.nysenate.gov/">Senate</a></li>	
+					<li><a href="http://assembly.state.ny.us/Reports/" class="external" target="_blank">Legislative Reports</a> <em>(New York State Assembly)</em></li>
+
 				</ul>
 			</div>
 		</div>
